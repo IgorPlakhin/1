@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    background-color: rgba(255, 255, 255, 0.5);
+    /* Полупрозрачный слой */
+    /* background-blend-mode: overlay; */
+    background-image: url('../img/burlington-school-london.jpg');
+    background-size: contain;
+    background-position: center;
+}
+
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.9);
+    /* 50% прозрачность */
+    z-index: -1;
+}
+
+
+.navbar-style-2 navbar-light {
+
+    position: absolute;
+    width: 1322px;
+    height: 91px;
+    left: calc(50% - 1322px/2);
+    top: 0px;
+}
+
+.about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #f4f4f4;
+
+
+}
+
+.logo {
+    max-width: 150px;
+    height: auto;
+}
+
+.team-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+    .team-section {
+        flex-direction: column;
+    }
+}

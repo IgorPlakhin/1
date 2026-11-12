@@ -1,0 +1,721 @@
+/* 
+    Template  Name: Prohub - Multipurpose $ Corporate Product Landing Page Template
+    Template URI: static.crazycafe.net/crazycafe/prohub
+    Description: This is a Multipurpose $ Corporate Product Landing Page Template
+    Author: CrazyCafe
+    Author URI: support@crazycafe.net
+    Version: 1.0  
+========================================== TABLE CONTENTS ==========================================
+ 1. GLOBAL STYLES 
+ 2. HEADER AREA STYLES 
+ 3. Hero Area
+ 4.Promo Area
+ 5. Video Area
+ 6. Quality Area
+ 7. Drone Testimonial
+ 8. Drone Subscribe
+ 9. Drone Contact form
+ 10. Drone Footer style
+ 11. Bike css
+ 12. HeadPhone
+ 13. Hover Board
+ 14. Live Cam Style
+ 15. Watch Landing page
+
+/* 
+/* Google Fonts */
+
+@import url('https://fonts.googleapis.com/css?family=Muli:300,300i,400,400i,600,600i,700,700i,800,800i,900,900i|Nunito+Sans:300,300i,400,400i,600,600i,700,700i,800,800i,900,900i|Open+Sans:400,400i,600,600i,700,700i,800,800i|Poppins:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+/*======================================== 1. GLOBAL STYLES ==========================================*/
+
+/* === 1.1 Body === */
+
+html {
+    font-size: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: #fff;
+    color: #61657a;
+    font-family: 'Muli', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 24px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+
+/* ======================================== 2. Typography =========================================== */
+
+/* === 1.2 Hyperlink === */
+
+a {
+    color: #303030;
+    /*transition*/
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+}
+
+a,
+a>* {
+    cursor: pointer;
+    outline: medium none;
+    text-decoration: none;
+}
+
+a:focus,
+a:hover {
+    outline: medium none;
+    text-decoration: none;
+    color: inherit;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+    color: inherit;
+}
+
+/* === 2.1 Headings === */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #30323c;
+    font-family: 'Poppins', sans-serif;
+    margin: 0 0 15px;
+    padding: 0;
+    transition: 0.3s
+}
+
+h1 {
+    font-size: 36px;
+    line-height: 52px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 30px;
+    line-height: 45px;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 28px;
+    line-height: 32px;
+}
+
+h4 {
+    font-size: 24px;
+    line-height: 38px;
+}
+
+h5 {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+h6 {
+    font-size: 18px;
+}
+
+/* === PARAGRAPH === */
+
+p {
+    margin: 0 0 10px;
+}
+
+b,
+strong {
+    font-weight: 600;
+}
+
+/* ======================================= Basic Margins Paddings ===============*/
+
+/* === Padding Bottom === */
+
+.pb-60 {
+    padding-bottom: 60px;
+}
+
+.pb-70 {
+    padding-bottom: 70px;
+}
+
+.pb-80 {
+    padding-bottom: 80px;
+}
+
+.pb-100 {
+    padding-bottom: 100px;
+}
+
+.pb-110 {
+    padding-bottom: 110px;
+}
+
+.pt-110 {
+    padding-top: 110px;
+}
+
+/*=== Padding Top Bottom ===*/
+
+.ptb-80 {
+    padding: 80px 0;
+}
+
+.ptb-105 {
+    padding: 105px 0;
+}
+
+.ptb-100 {
+    padding: 100px 0;
+}
+
+.ptb-110 {
+    padding: 110px 0;
+}
+
+/* Miscellaneous Paddings */
+
+.pt110-pb50 {
+    padding: 110px 0 50px;
+}
+
+.pt110-pb65 {
+    padding: 110px 0 65px;
+}
+
+.pt110-pb75 {
+    padding: 110px 0 75px;
+}
+
+.pt110-pb85 {
+    padding: 110px 0 85px;
+}
+
+.pt110-pb95 {
+    padding: 110px 0 95px;
+}
+
+.pt90-pb100 {
+    padding: 90px 0 100px;
+}
+
+.pt95-pb55 {
+    padding: 95px 0 55px;
+}
+
+/*Margin Bottom*/
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.mb-40 {
+    margin-bottom: 40px;
+}
+
+.mb-65 {
+    margin-bottom: 65px;
+}
+
+/*Margin Left*/
+
+.ml-35 {
+    margin-left: 35px;
+}
+
+/* === 1.5 OTHER FIXES === */
+
+pa {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.floatleft {
+    float: left
+}
+
+.floatright {
+    float: right
+}
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px
+}
+
+.alignright {
+    float: right;
+    margin-left: 15px;
+    margin-bottom: 15px
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.tbl {
+    display: table;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+}
+
+.tbl-cell {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+/*Scroll Up*/
+
+#scrollUp {
+    background: #1da1f2 none repeat scroll 0 0;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    bottom: 75px;
+    color: #fff;
+    font-size: 32px;
+    height: 38px;
+    line-height: 36px;
+    right: 8px;
+    text-align: center;
+    width: 38px;
+}
+
+/*=== Section Title ===*/
+
+.section-title h2 {
+    color: #30323c;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contact-area .section-title h2 {
+    margin-bottom: 55px;
+}
+
+/*bike section title*/
+
+.bike-section-title h2 {
+    color: #333232;
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* === Background Color === */
+
+.bg-theme {
+    background-color: #1da1f2;
+}
+
+.bg-gray {
+    background-color: #f5f7f8;
+}
+
+.bg-white {
+    background-color: #ffffff;
+}
+
+/*=== Background Overlay === */
+
+.overlay-bg,
+.overlay-bg-2,
+.overlay-bg-3 {
+    position: relative;
+    overflow: hidden;
+}
+
+.overlay-bg::before,
+.overlay-bg-2::before,
+.overlay-bg-3::before {
+    content: "";
+    display: block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.overlay-bg::before {
+    background: rgba(0, 0, 0, 0.502) none repeat scroll 0 0;
+}
+
+.overlay-bg-2::before {
+    background-color: rgba(86, 24, 199, 0.9);
+}
+
+.overlay-bg-3::before {
+    background-color: rgba(41, 121, 255, 0.9);
+}
+
+/*======================================== 2. HEADER AREA STYLES ==========================================*/
+
+/*Logo*/
+
+.logo img {
+    padding: 30px 0;
+    transition: 0.3s;
+}
+
+.logo {
+    transition: 0.3s;
+}
+
+.headphone .scroll-header .logo {
+    background: #5458f2;
+    padding: 2px 15px;
+}
+
+/* Naviagaion */
+
+.drone .main-menu-wrap {
+    margin-top: 10px;
+}
+
+nav.bizes-nav {
+    float: left;
+    width: 100%;
+}
+
+.bizes-nav ul.menu {
+    float: right;
+}
+
+.bizes-nav ul {
+    list-style: none;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.bizes-nav .menu li {
+    position: relative;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    list-style: none;
+    padding: 0 10px;
+}
+
+.bizes-nav .menu li a {
+    color: #666;
+    display: block;
+}
+
+.bizes-nav .menu>li {
+    float: left;
+    padding: 0;
+}
+
+.bizes-nav ul.menu>li>a {
+    color: #61657a;
+    font-size: 14px;
+    font-weight: 700;
+    opacity: 1;
+    padding: 30px;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+}
+
+.drone .bizes-nav ul.menu>li>a:hover {
+    color: #2260ff;
+}
+
+.bike .bizes-nav ul.menu>li>a {
+    color: #4f4f4f;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.headphone .bizes-nav ul.menu>li>a {
+    font-size: 15px;
+    color: #fff;
+    font-weight: 400;
+    position: relative;
+    padding: 0;
+    margin: 29px 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.headphone .bizes-nav ul.menu>li>a:before {
+    position: absolute;
+    top: 49%;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #ffffff;
+    content: "";
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s;
+    transform: scale(0.6);
+}
+
+.headphone .bizes-nav ul.menu>li>a:hover:before {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+}
+
+.hoverboard .bizes-nav ul.menu>li>a {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-family: 'Nunito Sans', sans-serif;
+    padding: 26px;
+}
+
+.hoverboard .bizes-nav ul.menu>li>a:last-child {
+    padding-right: 28px;
+}
+
+.bizes-nav ul.menu>li>a:last-child {
+    padding-right: 0;
+}
+
+.bizes-nav .menu>li:last-child>ul ul {
+    left: auto;
+    right: 100%;
+}
+
+.bizes-nav .menu>li ul {
+    background-color: #ffffff;
+    border-top: 2px solid #1da1f2;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    padding: 15px 0;
+    position: absolute;
+    -webkit-transform: translate3d(0px, 10px, 0px);
+    -moz-transform: translate3d(0px, 10px, 0px);
+    -ms-transform: translate3d(0px, 10px, 0px);
+    -o-transform: translate3d(0px, 10px, 0px);
+    transform: translate3d(0px, 10px, 0px);
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    visibility: hidden;
+    width: 200px;
+    z-index: 99;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.12);
+}
+
+.bizes-nav .menu>li>ul li a {
+    padding: 5px 12px;
+}
+
+.bizes-nav .menu>li>ul li a:hover {
+    background-color: #efefef;
+    border-radius: 2px;
+    color: #1da1f2;
+}
+
+.bizes-nav .menu>li>ul>li>ul {
+    left: 100%;
+    padding: 10px;
+    top: 0;
+}
+
+.bizes-nav .menu>li:hover>ul {
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    -webkit-transform: translate3d(0px, 0px, 0px);
+    -moz-transform: translate3d(0px, 0px, 0px);
+    -ms-transform: translate3d(0px, 0px, 0px);
+    -o-transform: translate3d(0px, 0px, 0px);
+    transform: translate3d(0px, 0px, 0px);
+    visibility: visible;
+}
+
+.menu>li>ul>li:hover>ul {
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    -webkit-transform: translate3d(0px, 0px, 0px);
+    -moz-transform: translate3d(0px, 0px, 0px);
+    -ms-transform: translate3d(0px, 0px, 0px);
+    -o-transform: translate3d(0px, 0px, 0px);
+    transform: translate3d(0px, 0px, 0px);
+    visibility: visible;
+}
+
+.bike .bizes-nav ul.menu>li>a {
+    margin-top: 6px;
+}
+
+/* Mobile Menu */
+
+.navigation-area .col-2.col-sm-10.col-md-9,
+.navigation-area .col-7.col-sm-10.col-md-10,
+.navigation-area .col-2.col-sm-2.col-lg-8 {
+    position: static;
+}
+
+.mean-container .mean-bar {
+    margin-top: 18px;
+    position: inherit;
+    margin-bottom: 12px;
+}
+
+a.meanmenu-reveal {
+    background: #007bff;
+    margin-top: 25px;
+}
+
+.headphone .mean-container .mean-bar {
+    margin-top: 25px;
+}
+
+.mobile-menu-area .mean-nav {
+    left: 0;
+    position: absolute;
+    top: 32px;
+    z-index: 2;
+}
+
+.bike .mobile-menu-area .mean-nav {
+    top: 76px;
+}
+
+.hoverboard .mobile-menu-area .mean-nav {
+    top: 52px;
+}
+
+.navigation-area {
+    width: 100%;
+    z-index: 999;
+}
+
+/* Fixed Header */
+
+.header-area.scroll-header {
+    position: fixed;
+    box-shadow: 0 4px 3px rgba(0, 0, 0, 0.05);
+    width: 100%;
+    z-index: 999;
+    transition: all 0.3s ease 0s;
+}
+
+.scroll-header .navigation-area {
+    background-color: #ffffff;
+    position: fixed;
+    transition: all 0.3s ease 0s;
+    box-shadow: 0 4px 3px rgba(0, 0, 0, 0.05);
+}
+
+.scroll-header .logo img {
+    padding: 20px 0;
+    transition: all 0.3s ease 0s;
+}
+
+.headphone .scroll-header .logo img {
+    padding: 55px 0;
+}
+
+.scroll-header .bizes-nav ul.menu>li>a {
+    padding: 25px 30px;
+    color: #61657a !important;
+}
+
+.headphone .scroll-header .bizes-nav ul.menu>li>a {
+    padding: 25px 0px;
+}
+
+.scroll-header .bizes-nav ul.menu>li>a:last-child {
+    padding-right: 0;
+}
+
+.scroll-header a.hero-signup {
+    margin-top: 45px;
+    border: 1px solid #3cdecb;
+}
+
+/*=== 3. Hero Area ===*/
+
+.hero-area {
+    background-image: url(assets/img/drone.jpg);
+    background-repeat: no-repeat;
+    height: 545px;
+    background-position: 85% 55%;
+    position: relative;
+}
+
+.hero-content-area {
+    margin-top: 158px;
+}
+
+.hero-content-area h1 {
+    font-size: 45px;
+    line-height: 60px;
+    font-weight: 400;
+    color: #30323c;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero-content-area p {
+    font-size: 18px;
+    line-height: 27px;
+    color: #61657a;
+    font-family: 'Muli', sans-serif;
+    margin-bottom: 32px;
+}
+
+a.filed-btn {
+    background-color: #2260ff;
+    width: 200px;
+    display: inline-block;
+    text-align: center;
+    height: 60px;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 60px;
+    border-radius: 5px;
+}
+
+a.filed-btn:hover,
+form.subscribe-form button:hover {
+    background: #30323c;
+}
