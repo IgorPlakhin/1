@@ -1,0 +1,95 @@
+{
+    "date": "2026-11-21",
+    "data": {
+        "_id": "6ab96da7f8565f7e88a60ebe",
+        "word": "hinny",
+        "contentProvider": {
+            "name": "wordnik",
+            "id": 711
+        },
+        "definitions": [
+            {
+                "source": "ahd-5",
+                "text": "The sterile hybrid offspring of a male horse and a female donkey.",
+                "note": null,
+                "partOfSpeech": "noun"
+            },
+            {
+                "source": "century",
+                "text": "To neigh; whinny.",
+                "note": null,
+                "partOfSpeech": "verb"
+            },
+            {
+                "source": "century",
+                "text": "A dialectal (Scotch) variant of honey.",
+                "note": null,
+                "partOfSpeech": "noun"
+            },
+            {
+                "source": "gcide",
+                "text": "A hybrid between a stallion and an ass; -- correlative of the mule.",
+                "note": null,
+                "partOfSpeech": "noun"
+            },
+            {
+                "source": "gcide",
+                "text": "A term of endearment; darling; -- corrupted from honey.",
+                "note": null,
+                "partOfSpeech": "noun"
+            },
+            {
+                "source": "wiktionary",
+                "text": "The hybrid offspring of a stallion (male horse) and a she-ass (female donkey).",
+                "note": null,
+                "partOfSpeech": "noun"
+            }
+        ],
+        "publishDate": "2026-11-20T03:00:00.000Z",
+        "examples": [
+            {
+                "title": "Blue Adept",
+                "text": "I knew nothing about that horse except that a hinny was the sterile issue of stallion and jenny, most like a mule but prettier, yet already I was eager to ride her.",
+                "id": 1071731222
+            },
+            {
+                "url": "http:\/\/www.fastonline.org\/CD3WD_40\/CD3WD\/APPRTECH\/FB14FE\/EN\/B79_5.HTM",
+                "title": "Chapter 5",
+                "text": "A hinny is the offspring of a stallion and a she - donkey.",
+                "id": 743939240
+            },
+            {
+                "url": "http:\/\/www.gutenberg.org\/dirs\/2\/4\/0\/0\/24001\/24001-0.txt",
+                "title": "The Physical Life of Woman: Advice to the Maiden, Wife and Mother",
+                "text": "On the other hand, the hinny, which is the offspring of the stallion and the she-ass, is essentially a modified horse, having the general configuration of the horse, but being a much smaller animal than its sire, and therefore approaching the dam in size as well as in the comparative narrowness of its trunk.",
+                "id": 1106973689
+            },
+            {
+                "url": "http:\/\/www.gutenberg.org\/dirs\/2\/0\/1\/8\/20185\/20185-8.txt",
+                "title": "Eventide A Series of Tales and Poems",
+                "text": "Aunt Patty said she should be lost without her hinny, and George Wild remonstrated half angrily with her, for going off to leave him alone; but all to no effect -- Annie must go.",
+                "id": 1145738419
+            },
+            {
+                "url": "http:\/\/iznewmania.blogspot.com\/2007\/05\/miss-piggy-and-sissy-duckling.html",
+                "title": "Don`t Get Me Started",
+                "text": "Newcastle City Coucil banned staff from saying pet and hinny, Blackpool taxi drivers were prevented from flaunting the cross of St. George.",
+                "id": 862880346
+            },
+            {
+                "url": "http:\/\/etext.library.adelaide.edu.au\/s\/scott\/walter\/heart\/complete.html",
+                "title": "The Heart of Mid-Lothian",
+                "text": "Mony a warsle he has had for that puir lassie \u2014 I am thinking he petitions mair for her than for yoursell, hinny; for what can he plead for you but just to wish you the blessing ye deserve?",
+                "id": 996309563
+            },
+            {
+                "title": "Cold Mountain",
+                "text": "He rode off one morning on their old hinny to do battle, and Ruby had heard nothing from him since.",
+                "id": 989928830
+            }
+        ],
+        "pdd": "2026-11-20",
+        "note": "The word 'hinny' comes from Latin.",
+        "htmlExtra": null
+    }
+}

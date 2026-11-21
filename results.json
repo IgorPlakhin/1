@@ -1,0 +1,93 @@
+[
+    {
+        "user_id": 3,
+        "username": "Игорь",
+        "correct_answers": 0,
+        "incorrect_answers": 4,
+        "total_questions": 4,
+        "score_percent": 0,
+        "created_at": "2026-11-03 04:09:19"
+    },
+    {
+        "user_id": 3,
+        "username": "Игорь",
+        "correct_answers": 1,
+        "incorrect_answers": 3,
+        "total_questions": 4,
+        "score_percent": 25,
+        "created_at": "2026-11-03 04:09:25"
+    },
+    {
+        "user_id": 15,
+        "username": "Марина",
+        "correct_answers": 0,
+        "incorrect_answers": 4,
+        "total_questions": 4,
+        "score_percent": 0,
+        "created_at": "2026-11-03 08:14:51"
+    },
+    {
+        "user_id": 15,
+        "username": "Марина",
+        "correct_answers": 0,
+        "incorrect_answers": 4,
+        "total_questions": 4,
+        "score_percent": 0,
+        "created_at": "2026-11-03 08:16:27"
+    },
+    {
+        "user_id": 15,
+        "username": "Марина",
+        "correct_answers": 0,
+        "incorrect_answers": 4,
+        "total_questions": 4,
+        "score_percent": 0,
+        "created_at": "2026-11-03 08:19:37"
+    },
+    {
+        "user_id": 3,
+        "username": "Игорь",
+        "correct_answers": 0,
+        "incorrect_answers": 4,
+        "total_questions": 4,
+        "score_percent": 0,
+        "created_at": "2026-11-03 08:23:19"
+    },
+    {
+        "user_id": 3,
+        "username": "Игорь",
+        "correct_answers": 0,
+        "incorrect_answers": 4,
+        "total_questions": 4,
+        "score_percent": 0,
+        "created_at": "2026-11-03 08:25:11"
+    },
+    {
+        "user_id": 3,
+        "username": "Игорь",
+        "correct_answers": 15,
+        "incorrect_answers": 45,
+        "total_questions": 60,
+        "score_percent": 25,
+        "created_at": "2026-11-06 01:31:47"
+    },
+    {
+        "user_id": 3,
+        "username": "Игорь",
+        "correct_answers": 9,
+        "incorrect_answers": 51,
+        "total_questions": 60,
+        "score_percent": 15,
+        "created_at": "2026-11-06 02:17:44"
+    },
+    {
+        "user_id": 3,
+        "username": "Игорь",
+        "correct_answers": 10,
+        "incorrect_answers": 50,
+        "total_questions": 60,
+        "score_percent": 16.6700000000000017053025658242404460906982421875,
+        "level": "elementary language Practice",
+        "created_at": "2026-11-06 02:23:34"
+    }
+]
